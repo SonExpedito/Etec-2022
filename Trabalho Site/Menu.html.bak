@@ -1,0 +1,48 @@
+<html>
+
+<head>
+	<!-- link do Vídeo https://saladestudo.com.br/tutoriais/tutorial-menu-dropdown-responsivo-com-html-e-csssem-javascript -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Home</title>
+ 
+	<link rel="stylesheet" href="css/style.css" />
+	</head>
+	
+	<body background="Fundo.jpg">
+		
+	
+	
+	<input type="checkbox" id="bt_menu">
+	<label for="bt_menu">&#9776;</label>
+
+
+	<nav class="menu">
+		<ul>
+		    <li><a href="Menu.html"><img src="Logo.png" width="20" height="20"></a>
+			<li><a href="Menu.html">Home</a></li>
+				<li><a href="Software.html">Bios</a>
+			</li>
+			<li><a href="Hardware.html">Hardware</a>
+				<ul class="submenu">
+					<li><a href="PlacaMãe.html">Placa Mãe</a>
+					<li><a href="Processador.html">Processador</a>
+					<li><a href="Memória.html">Memórias Diversas</a>
+				</ul>
+			</li>      
+        <li><a href="Comparação.html">Comparação</a></li>
+    </ul>
+</nav>
+
+<br><br>
+<h2><font face="Verdana">Nome:Alex Expedito Silva Santos</font></h2>
+<h2><font face="Verdana">Turma: 1°Ds Ams</font></h2>
+<br>
+<h2><font face="Verdana">Esse é o meu trabalho de Fundamentos da Informática e PW</font></h2>
+<h2><font face="Verdana">As respostas foram divididas nos tópicos acima</font></h2>
+
+
+	
+</body>
+
+</html>

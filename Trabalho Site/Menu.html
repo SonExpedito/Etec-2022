@@ -1,0 +1,260 @@
+<html>
+
+<head>
+	<!-- link do Vídeo https://saladestudo.com.br/tutoriais/tutorial-menu-dropdown-responsivo-com-html-e-csssem-javascript -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Home</title>
+ 
+	<style>
+     	body{
+		background-image:;
+		background-attachment:fixed;
+		background-size:100%;
+		background-repeat: no-repeat;
+		background-color:#000;
+	}
+		
+	
+	*{
+	margin:0;
+	padding:0;
+	color:#FFFFFF;
+	font-family:'Arial';
+	}
+	
+.menu{
+	width:100%;
+	height:50px;
+	background-color: #222;
+	}
+	
+.menu>ul{
+	list-style:none;	
+	position:relative;
+	margin-left:50px;
+	}
+.menu ul li{
+		width:150px;
+		float:left;
+	}
+
+.menu a{
+	padding:15px;
+	display:block;
+	text-decoration: none;
+	background-color: #222;
+	text-align:center;
+	}
+.menu ul ul{
+	list-style:none;
+	position:absolute;
+	visibility:hidden;
+	
+	}
+	.menu ul li:hover ul{
+	visibility:visible;
+	}
+	
+	.menu a:hover{
+	background-color:#f4f4f4;
+	}
+
+	.menu ul ul li{
+	float:none;
+	border-bottom: solid 1px #ccc;
+	}
+	.menu ul ul li a{
+	background-color:gray;
+	}
+	
+	#bt_menu{
+	display: none;
+	}
+	
+	label[for='bt_menu']{
+	padding:5px;
+	background-color:#222;
+	color:#fff;
+	font-family:'Arial';
+	text-align:center;
+	font-size:30px;
+	cursor:pointer;
+	display:none;
+	width:50px;
+	height:50px;
+	
+	}	
+	label[for='bt_menu']:hover{
+	background-color:#f4f4f4;
+	color:#aaa;
+	}
+	@media (max-width: 800px) {
+	.menu{
+	margin-left:-100%;
+	transition:all .4s;
+	}
+	label[for='bt_menu']{
+	display:block;
+	}
+	.menu>ul{
+	margin-left:0;
+	}
+	.menu{
+	margin-top:5px;
+	}
+	.menu ul li{
+	width:100%;
+	float:none;
+	}
+	.menu ul ul{
+	position:static;
+	overflow:hidden;
+	max-height:0;
+	transition:all .4s;
+	}
+	.menu ul li:hover ul{
+	height:auto;
+	max-height:200px;
+	transition:all .4s;
+	}
+		#bt_menu:checked ~ .menu{
+		margin-left:0;
+		}
+		}
+		
+		<!--Parte das Ondas e o Título-->
+	* {
+     margin: 0;
+	 padding: 0;
+	 box-sizing: border-box;
+     }	
+
+     h1 {
+     color: #fff;
+	 font-size: max(60px, 4vw);
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+	 'Open Sans', 'Helvetica Neue', sans-serif;
+	 text-align: center;
+	 }
+
+
+	 header,
+	 section {
+      display: flex;
+	  align-items: center;
+	  justify-content: center;
+      text-align: center;
+	  height: 85vh;
+	 }
+
+	
+
+	 header{
+	   background: #024b61;
+       
+	 }
+
+	 header h1 {
+       border: 5px solid #14fff1;
+	   padding: 10px 50px;
+	   margin: 50px;
+       border-radius: 16px;
+
+	   text-shadow: 0 0 0px rgba(255, 255, 255, 0.3), 0 0 29px #14fff1;
+     filter: blur(0.2px);
+
+	}
+
+	 .waves {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+	  right: 0;
+	 }
+
+	 .wave-1 {
+      animation: moveWave1 3s ease-in-out  infinite alternate;
+	 }
+
+	 @keyframes moveWave1 {
+		 from {
+			 transform: translateX(-2200px);
+			 transform: scaleX(2);
+		 } 
+			
+		 
+	 }
+	 .wave-2 {
+      animation: moveWave2 3s 1.2s ease-in-out  infinite alternate;
+      
+	 }
+
+	 @keyframes moveWave2 {
+		 from {
+			 transform: translateX(-1800px);
+			 transform: scaleX(2);
+		 } 
+			
+		 
+	 }
+	 .wave-3 {
+      animation: moveWave3 3s 0.7s ease-in-out  infinite alternate;
+
+	 }
+
+	 @keyframes moveWave3 {
+		 from {
+			 transform: translateX(-1600px);
+			 transform: scaleX(2);
+		 } 
+			
+		 
+	 }
+	</style>
+	</head>
+	
+	<body >
+		
+	
+	
+	<input type="checkbox" id="bt_menu">
+	<label for="bt_menu">&#9776;</label>
+
+
+	<nav class="menu">
+		<ul>
+		    <li><a href="Menu.html"><img src="Logo.png" width="20" height="20"></a>
+			<li><a href="Menu.html">Home</a></li>
+				<li><a href="Bios.html">Bios</a>
+			</li>
+			<li><a href="Hardware.html">Hardware</a>
+				<ul class="submenu">
+					<li><a href="PlacaMãe.html">Placa Mãe</a>
+					<li><a href="Processador.html">Processador</a>
+					<li><a href="Memória.html">Memórias Diversas</a>
+				</ul>
+			</li>      
+        <li><a href="Comparação.html">Comparação</a></li>
+    </ul>
+</nav>
+
+
+<header>
+
+<svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="2 3 1440 320" 
+>
+<path class="wave-1" fill="#14fff1" fill-opacity="1" d="M0,192L80,181.3C160,171,320,149,480,154.7C640,160,800,192,960,202.7C1120,213,1280,203,1360,197.3L1440,192L1440,320L1360,320C1280,320,1120,
+320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+<path class="wave-2" fill="#14fff1" fill-opacity="1" d="M0,128L34.3,144C68.6,160,137,192,206,202.7C274.3,213,343,203,411,197.3C480,192,549,192,617,165.3C685.7,139,754,85,823,106.7C891.4,128,960,224,1029,240C1097.1,256,1166,192,1234,144C1302.9,96,1371,64,1406,48L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+<path class="wave-3" fill="#14fff1" fill-opacity="1" d="M0,128L40,154.7C80,181,160,235,240,218.7C320,203,400,117,480,85.3C560,53,640,75,720,101.3C800,128,880,160,960,144C1040,128,1120,64,1200,48C1280,32,1360,64,1400,80L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,
+720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
+</svg>
+<h1>Trabalho de FI/PW</h1>
+</header>
+
+
+	
+</body>
+
+</html>
