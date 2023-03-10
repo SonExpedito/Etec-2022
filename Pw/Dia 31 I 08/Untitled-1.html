@@ -1,0 +1,68 @@
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>Mudando Cor</title>
+
+<script language="JavaScript">
+ function MudarCor(Cor)
+ {
+    switch (Cor)
+    {
+      case 'Amarelo': document.bgColor='yellow'; break;
+      case 'Azul': document.bgColor='blue'; break;
+      case 'Ciano': document.bgColor='cyan';break;
+      case 'Verde': document.bgColor='green';break;
+      case 'Vermelho': document.bgColor='red';break;
+      case 'Padrão': document.bgColor='white';break;
+      default: alert("Resposta Inválida");
+    }
+
+
+
+
+
+
+ }
+</script>
+
+
+    
+
+
+</head>
+
+<body>
+<form name="formulário">
+<b><i>
+ Selecione uma Cor para o Background
+</i></b>
+<br><br>
+
+<input type="radio" name="fundo" onclick="MudarCor ('Amarelo')"> Amarelo <br>
+<input type="radio" name="fundo" onclick="MudarCor ('Azul')"> Azul <br>
+<input type="radio" name="fundo" onclick="MudarCor ('Ciano')"> Ciano <br>
+<input type="radio" name="fundo" onclick="MudarCor ('Verde')"> Verde <br>
+<input type="radio" name="fundo" onclick="MudarCor ('Vermelho')"> Vermelho <br>
+<input type="radio" name="fundo" onclick="MudarCor ('Padrão')"> Padrão <br>
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+</body>    
+
+</html>

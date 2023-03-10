@@ -1,0 +1,54 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quadrado ou Retângulo</title>
+
+<!--Javascript-->
+<script language="javascript">
+function Revelar(Base,Altura)
+ {
+   if (parseFloat(Base.value)==parseFloat(Altura.value)) {
+   alert("Os dados informados são de um Quadrado");
+
+   } 
+  else{
+    alert("Os dados informados são de um Retângulo");
+      }
+   
+
+
+ }
+
+
+
+
+
+</script>
+
+
+
+</head>
+<body>
+<br><br>
+
+<center><h1>Retângulo ou Quadrado</h1></center>
+
+<!--Formulário-->
+<form>
+Informe a Base: <input type="text" size="20" name="Base"> <!--Base-->
+<br>
+informe a Altura: <input type="text" size="20" name="Altura"> <!--Altura-->
+<br>
+<input type="submit" value="Revelar" onclick="Revelar(Base,Altura)">
+
+
+</form>
+
+
+
+</body>
+
+
+
+
+</html>

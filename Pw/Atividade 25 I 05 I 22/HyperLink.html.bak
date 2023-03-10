@@ -1,0 +1,51 @@
+<html>
+     <head>
+	     <title>HyperLink Tipo Ancora</title>
+	     <meta charset= "utf-8">
+	 </head>
+	    
+     <body>
+	 <a name="topo">
+	 
+	 <h1>HyperLink</h1>
+		<h1> The Batman é uma história de origem dos vilões, em vez de Bruce Wayne </h1>
+		     <img src="Batman.jpg" width="600" height="300"> <br>
+		Matt Reeves revela que The Batman será mais uma história de origem para os inimigos de Bruce Wayne do que para o Cavaleiro das Trevas.
+		<br><br><br>
+		Apesar do filme incluir vários antagonistas, há uma maneira muito simples de The Batman evitar a superlotação no enredo. O filme de estreia de Robert Pattinson como o Cavaleiro das Trevas apresentará ao público uma série de vilões de Gotham City.
+		<br><br><br>
+	
+	     <center><a href="#Homem aranha">Sinopse de Sem volta para Casa</a></center>
+	
+	<a name="Meio">	
+		<h1> Vilões</h1>
+		Esses vilões incluem Mulher-Gato, Pinguim, Carmine Falcone e a releitura do Charada como uma espécie de Assassino do Zodíaco de Gotham City. No entanto, apesar do grande elenco, o longa apresentará o que parece ser uma história íntima ambientada durante o segundo ano do herói lutando contra o crime em Gotham.
+		<br><br><br>
+          É um cenário perfeito para a narrativa noir que Reeves prometeu desde o início. O diretor e co-roteirista de The Batman, Matt Reeves, descreve o próximo filme como mais uma história de origem para a galeria de vilões do Cavaleiro das Trevas, em contraste com as muitas gêneses do Batman contadas ao longo dos anos. Durante uma coletiva de imprensa, o diretor se aprofundou no tema.
+        <br><br><br>
+          Reeves havia mencionado anteriormente por que The Batman não abordará a origem do Homem-Morcego novamente. Quanto ao próprio Charada, Reeves revelou no início deste ano que o vilão foi inspirado no Assassino do Zodíaco da vida real
+	
+	<a name="Fim">	  
+		  <h1> Conclusão</H1>
+               O resumo bastante detalhado passou a descrever uma série de pistas que levarão o vigilante através do submundo de Gotham, onde confrontará a Mulher-Gato e uma quantidade de vilões considerável. Provavelmente, cada vilão servirá à investigação do Batman de uma maneira única, tornando-os partes de uma história mais ampla.
+                 <br><br><br>
+A produção que será lançada em 03 março de 2022 marcará o início de um novo universo compartilhado da DC Comics nos cinemas e no streaming. A ideia é construir uma franquia focada no Batman e em outros personagens do universo do herói.
+		
+		  <center><a href="topo">Começo sobre o Batman</a></center>
+		<a name ="Homem aranha">
+		    
+		    <h1> Sinopse Homem aranha</h1>
+			   <img src="HomemAranha.jpg" width="600" height="300"> <br>
+			    O resumo bastante detalhado passou a descrever uma série de pistas que levarão o vigilante através do submundo de Gotham, onde confrontará a Mulher-Gato e uma quantidade de vilões considerável. Provavelmente, cada vilão servirá à investigação do Batman de uma maneira única, tornando-os partes de uma história mais ampla.
+
+A produção que será lançada em 03 março de 2022 marcará o início de um novo universo compartilhado da DC Comics nos cinemas e no streaming. A ideia é construir uma franquia focada no Batman e em outros personagens do universo do herói.
+			
+		  
+		
+		
+		
+		
+	 </body>	
+		
+		
+</html>

@@ -1,0 +1,68 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Onde você trabalhará</title>
+<!--JavaScript-->
+<script language="javascript">
+function Mostrar(Codigo) 
+{
+   num = parseInt(Codigo.value);
+
+   if (num==1) //*1
+   {
+     alert("Você trabalhará na Expedição");
+    }
+   else {
+          if (num==2){ //*2
+           alert("Você trabalhará no Recursos Humanos");
+          }
+          else{
+                 if (num==3) { //*3
+                    alert("Você trabalhará na Logística");
+                 }
+                 else{
+                        if (num==4){ //*4
+                            alert("Você trabalhará na Contabilidade");
+                        }
+                        else{
+                                if (num==5) {
+                                    alert("Você trabalhará no Departamento Pessoal");
+                                }
+                                else {
+                                      if (num==6) {
+                                        alert("Você trabalhará na Informática");
+                                      } 
+                                      else {
+                                        alert("O Código é inválido");
+                                      }
+
+                                    
+
+                                }
+                        }
+
+                 }
+          }
+
+
+
+   } 
+
+
+
+
+}
+
+</script>
+<!--Fim-->
+
+</head>    
+<center><h1>Em qual Setor você trabalhará</h1></center>
+<br>
+<!--Form-->
+<form>
+Código do Departamento: <input type="text" size="20" name="Codigo"> <br>
+<input type="submit" value="Mostrar" size="20" onclick="Mostrar(Codigo)">
+</form>
+
+</html>

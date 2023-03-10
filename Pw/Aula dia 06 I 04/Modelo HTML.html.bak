@@ -1,0 +1,39 @@
+<html>
+     <head>
+	     <title>Tabela</title>
+	     <meta charset= "utf-8">
+	 </head>
+	    
+		<body>
+	 
+       <table border= "1" cellspacing= "-10" cellpadding= "-10">
+	     <tr>
+		   <th>Nome</th>
+		   <th>Cidade</th>
+		   <th>Estados</th>
+		 </tr>
+		   
+          <tr>	
+            <td>João Gostoso</td>		  
+			 <td>Guarulhos</td>
+			 <td>São Paulo</td>
+		  </tr>
+			
+          <tr>
+            <td>Zé Pequeno</td>
+            <td> Rio de Janeiro</td>
+            <td> Rio Janeiro</td>			
+			
+			
+			
+
+
+
+
+
+
+
+        </body>
+
+
+</html>

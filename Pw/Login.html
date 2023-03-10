@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Login</title>
+    <meta charset="utf-8">
+
+    <script language="javascript">
+      function Login(nick,codigo){
+            const login= [],senha= [];
+            //Logins
+            login[0] = "RafaelLange";
+            login[1] = "RicardoXimenes";
+            login[2] = "Ycaro";
+            //Senha
+            senha[0] = "Celbit4Mi";
+            senha[1] = "Saik1to";
+            senha[2] = "CosVião";
+
+           if (nick.value==login[0] && codigo.value==senha[0]){
+                 alert("Acesso Autorizado redirecionando.");
+                 document.write("")
+             }
+           else{
+                if (nick.value==login[1] && codigo.value==senha[1]){
+                    alert("Acesso Autorizado redirecionando.");
+                  }
+                else{
+                           if (nick.value==login[2] && codigo.value==senha[2]){
+                             alert("Acesso Autorizado redirecionando.");
+                            }
+                           else{
+                              alert("Acesso Negado, Nick ou Senha Inválido.");    
+                            }
+                }  
+           }  
+           
+        }
+    </script>
+</head>
+<body>
+    <center><h1>Login</h1></center>  
+    <br>
+    <form>
+       Nick: <input type="text" size="20" name="nick"> <br>
+       Senha: <input type="text" size="20" name="codigo"> <br>
+       <input type="submit" size="20" value="login" onclick="Login(nick,codigo)">
+    </form> 
+</body>     
+</html>

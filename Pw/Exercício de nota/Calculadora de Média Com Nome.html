@@ -1,0 +1,58 @@
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>Notas de Alunos</title>
+
+<!--JavaScript-->
+<script language="javascript">
+ function Media(Nome,N1,N2,N3,N4) 
+ {
+    
+    Media = (parseFloat(N1.value)+parseFloat(N2.value)+parseFloat(N3.value)+parseFloat(N4.value))/4;
+    if (Media<=5) {
+         alert("O Aluno " +Nome.value +" Tirou " +Media +" de Média e Reprovou");
+     }
+    else {
+       if (Media<7) {
+        alert("O Aluno " +Nome.value +" Tirou " +Media +" de Média e precisará fazer recuperação");
+
+       }
+       else {
+        alert("O Aluno " +Nome.value +" Tirou " +Media +" de Média e Passou de Ano");
+ 
+
+       }
+
+
+    }
+
+
+
+
+ }
+
+
+
+
+</script>
+
+</head>
+<body>
+    <br>
+<center><h1>Calculador de Média</h1></center>
+<!--Form-->
+<form>
+Nome do Aluno:<input type="text" name="Nome" size="20"> <br> <!--Nome-->    
+Nota do 1°Bimestre: <input type="text" name="N1" size="20"><br> <!--Primeira Nota-->
+Nota do 2°Bimestre: <input type="text" name="N2" size="20"><br> <!--Segunda Nota-->
+Nota do 3°Bimestre: <input type="text" name="N3" size="20"><br> <!--Terceira Nota-->
+Nota do 4°Bimestre: <input type="text" name="N4" size="20"><br> <!--Quarta Nota-->
+<input type="submit" value="Calcular" onclick="Media(Nome,N1,N2,N3,N4)">
+
+</form>
+
+
+
+</body>
+</html>

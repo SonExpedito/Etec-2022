@@ -1,0 +1,75 @@
+<html>
+<head>
+<meta charse="utf-8">
+<title>Novo Salário</title>
+<!--JavaScript-->
+<script language="javascript">
+function Calcular(Salario,Codigo) {
+  Cod=parseInt(Codigo.value);
+  Sal=parseFloat(Salario.value);
+
+  if (Cod==1){ //*1
+     Percen=5;
+    }
+  else {
+      if (Cod==2){ //*2
+        Percen=10;  
+      }
+      else{
+             if (Cod==3){ //*3
+                Percen=15;
+              }
+             else {
+                  if (Cod==4){
+                       Percen=20;
+                    }
+                  else{
+                     if (Cod==5) {
+                     Percen=25;
+                     }
+                     else{
+                           if (Cod==6) {
+                               Percen=30;
+                           }
+                           else {
+                               alert("Código Inválido");
+                           }
+                     }
+                  }  
+             }
+
+      }
+  }  
+//*Fim If
+Reaj= (Sal/100)*Percen;
+SalNovo= Sal+Reaj;
+
+alert("O Seu salário antigo é " + Sal);
+alert("O Seu novo Salário com o reajuste de " +Percen +"%" +" Ficou " + SalNovo);
+
+
+}
+
+</script>    
+<!--Fim-->
+</head>
+<body>
+<center><h1>Novo Salário</h1></center>
+<!--Form-->
+<form>
+Digite seu Salário Atual: <input type="text" name="Salario" size="20"> <br>
+Digite o Código de Reajuste: <input type="text" name="Codigo" size="20"> <br>
+<input type="submit" size="20" value="Calcular" onclick="Calcular(Salario,Codigo)">
+
+
+
+</form>    
+
+
+
+
+
+
+</body>   
+
+</html>

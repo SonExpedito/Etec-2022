@@ -1,0 +1,51 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Salários</title>
+<!--JavaScript-->
+<script language="javascript">
+function Calcular(sph,hor,Dep)
+{
+ vd=300;
+ sb=parseFloat(sph.value)*parseFloat(hor.value);
+ sl=sb+(vd*parseInt(Dep.value));
+ alert("Seu salário Bruto é igual a " +sb +" Enquanto o salário líquido é igual a " +sl);
+
+
+
+}
+
+
+
+
+</script>
+<!--Fim-->
+</head>
+<body>
+<center><h1>Calculadora de Salário</h1></center>
+
+<form>
+Salário Hora: <input type="text" size="20" name="sph"> <!--Sh--> <br>
+Horas Trabalhadas <input type="text" size="20" name="hor"> <!--Ho--> <br>
+Dependentes: <input type="text" size="20" name="Dep"> <!--Dep--> <br>
+<input type="submit" size="20" value="Calcular" onclick="Calcular(sph,hor,Dep)">
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>

@@ -1,0 +1,44 @@
+<html>
+     <head>
+	     <title>Tabela</title>
+	     <meta charset= "utf-8">
+	 </head>
+	    
+     <body bgcolor="f08080">
+	 
+           <b>Minha primeira tabela</b>
+            <table Border=2 bordercolor="black" Width="600" height="130" background= "batman.png">
+               <tr>  
+		          <th> Food/Comida </th> 
+			      <th> Country/País</th>
+                  <th> Ingrediente/Ingredients</th>				  
+		       </tr>
+			   <tr>
+		          <td>Lamen</td>
+			      <td>Japão/Japan</td>
+				  <td> Macarrão de Arroz<Td>
+				</tr>
+	    <tr>                  
+               <td>Feijoada</td>
+			   <td>Brasil/Brazil</td>
+			   <td>Feijão Preto</td>
+                			   
+		</tr>
+
+       	  
+			
+	    
+		</table>	
+			
+			
+
+
+
+
+
+
+
+     </body>
+
+
+</html>

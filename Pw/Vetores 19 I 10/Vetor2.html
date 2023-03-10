@@ -1,0 +1,40 @@
+<html>
+ <head>
+   <title>Vetor</title>
+    <meta charset="utf-8">
+
+    <script language="javascript">
+    function ver(Dia){
+      const semana = []; //É Necessário para Reservar um Espaço na Memória para o Uso.
+      semana[0]="Domingo";
+      semana[1]="Segunda-Feira";
+      semana[2]="Terça-Feira";
+      semana[3]="Quarta-Feira";
+      semana[4]="Quinta-Feira";
+      semana[5]="Sexta-Feira";
+      semana[6]="Sabádo";
+      if (Dia.value<1 || Dia.value>7) {
+          alert("Não Existe o Valor digitado.");
+      }
+      else {
+      alert(semana[parseInt(Dia.value)-1]);
+     }
+      //Fim Do Vetor
+    }
+
+      </script>
+ </head>
+ <body>
+    <center><h1>Dias da Semana</h1></center>
+
+    <form>
+          Digite o Número de um dia da Semana. <br>
+          <input type="text" size="20" name="Dia">
+          <br> 
+          <input type="submit" size="20" value="mostrar" onclick="ver(Dia)">
+          <br>
+          <input type="reset" value="limpar">
+    </form>  
+
+ </body>
+</html>

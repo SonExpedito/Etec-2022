@@ -1,0 +1,56 @@
+<html>
+<head>
+<meta charse="utf-8">
+<title>Menor ou Maior</title>
+<script language="javascript">
+function Checar(N1,N2) 
+{
+if (parseFloat(N1.value)>parseFloat(N2.value)) 
+  { 
+      alert(parseFloat(N1.value) + " é o Maior valor");
+  }
+  else {
+       if (parseFloat(N1.value)<parseFloat(N2.value)) {
+        alert(parseFloat(N2.value) + " é o Maior valor");
+
+        }
+      else {
+        alert("Os dois valores são iguais");
+
+        }     
+
+
+  }
+
+
+
+
+
+}
+
+
+
+
+</script>
+
+
+
+</head>
+<body>
+<center><h1>Qual é maior?</h1></center>
+
+<br>
+<!--Form-->
+<form>
+Digite o Primeiro Valor: <input type="text" name="N1" size="20"> <br>
+Digite o Segundo Valor: <input type="text" name="N2" size="20"> <br>
+<input type="submit" value="Checar" size="20" onclick="Checar(N1,N2)">
+
+
+</form>
+
+</body>
+
+
+
+</html>

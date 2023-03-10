@@ -1,0 +1,54 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Encadeado</title>
+
+<!--JavaScript-->
+<script language="javascript">
+function Revelar(num) 
+{
+  if (parseInt(num.value)>0) {
+      alert("O Número digitado é Positivo");
+   }
+   else {
+      if (parseInt(num.value)==0) {
+        alert("O Número digitado é Neutro"); }
+     else {
+          alert("O Número digitado é Negativo");
+
+
+     }
+
+   }     
+
+
+
+}
+
+
+
+
+
+</script>
+
+</head>
+
+<body>
+<br>
+
+<center><h1>Mundo Invertido ou Real?</h1></center>
+
+<!--Form-->
+<form>
+Número: <input type="text" size="20" name="num"> <br>
+<input type="submit" size="20" value="Mostrar" onclick="Revelar(num)">
+
+
+
+
+</form>
+
+</body>
+
+
+ </html>
